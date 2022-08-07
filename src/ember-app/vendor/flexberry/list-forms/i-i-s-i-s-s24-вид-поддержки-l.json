@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-i-s-s24-вид-поддержки-e",
+  "editForm": "i-i-s-i-s-s24-вид-поддержки-e",
+  "external": false,
+  "caption": "Вид поддержки",
+  "name": "IISISS24ВидПоддержкиL",
+  "className": "ВидПоддержкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s24-вид-поддержки",
+      "modelProjection": "ВидПоддержкиL"
+    }
+  ]
+}

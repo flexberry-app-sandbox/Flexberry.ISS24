@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Форма",
+  "name": "IISISS24ФормаE",
+  "className": "ФормаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s24-форма",
+      "modelProjection": "ФормаE"
+    }
+  ]
+}

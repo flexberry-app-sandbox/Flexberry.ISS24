@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Условие",
+  "name": "IISISS24УсловиеE",
+  "className": "УсловиеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s24-условие",
+      "modelProjection": "УсловиеE"
+    }
+  ]
+}

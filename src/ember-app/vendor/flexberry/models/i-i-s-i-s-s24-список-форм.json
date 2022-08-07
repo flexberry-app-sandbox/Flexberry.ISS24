@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISISS24СписокФорм",
+  "modelName": "i-i-s-i-s-s24-список-форм",
+  "className": "СписокФорм",
+  "nameSpace": "IIS.ISS24",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "форма",
+      "relatedTo": "i-i-s-i-s-s24-форма",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "видПоддержки",
+      "relatedTo": "i-i-s-i-s-s24-вид-поддержки",
+      "inverse": "списокФорм"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокФормE",
+      "modelName": "i-i-s-i-s-s24-список-форм",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Форма",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Форма",
+          "name": "форма",
+          "relatedTo": "i-i-s-i-s-s24-форма",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

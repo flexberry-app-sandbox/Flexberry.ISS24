@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-i-s-s24-форма-e",
+  "editForm": "i-i-s-i-s-s24-форма-e",
+  "external": false,
+  "caption": "Форма",
+  "name": "IISISS24ФормаL",
+  "className": "ФормаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s24-форма",
+      "modelProjection": "ФормаL"
+    }
+  ]
+}

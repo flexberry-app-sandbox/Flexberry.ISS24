@@ -1,0 +1,1 @@
+docker-compose -p iss24 down

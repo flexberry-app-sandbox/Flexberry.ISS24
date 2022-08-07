@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "I s s24",
+  "applicationTitle": "I s s24",
+  "items": [
+    {
+      "link": null,
+      "menuName": "i-s-s24",
+      "caption": "ISS24",
+      "title": "ISS24",
+      "children": [
+        {
+          "link": "i-i-s-i-s-s24-условие-l",
+          "menuName": null,
+          "caption": "Условие",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s24-вид-поддержки-l",
+          "menuName": null,
+          "caption": "Вид поддержки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s24-форма-l",
+          "menuName": null,
+          "caption": "Форма",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

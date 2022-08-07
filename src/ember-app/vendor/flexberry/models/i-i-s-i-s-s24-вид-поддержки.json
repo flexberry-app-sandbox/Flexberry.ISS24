@@ -1,0 +1,101 @@
+﻿{
+  "name": "IISISS24ВидПоддержки",
+  "modelName": "i-i-s-i-s-s24-вид-поддержки",
+  "className": "ВидПоддержки",
+  "nameSpace": "IIS.ISS24",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "описание",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "списокФорм",
+      "relatedTo": "i-i-s-i-s-s24-список-форм",
+      "inverse": "видПоддержки"
+    },
+    {
+      "name": "списокУсловий",
+      "relatedTo": "i-i-s-i-s-s24-список-условий",
+      "inverse": "видПоддержки"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ВидПоддержкиE",
+      "modelName": "i-i-s-i-s-s24-вид-поддержки",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СписокФормE",
+          "caption": "Список форм",
+          "name": "списокФорм",
+          "relatedTo": "i-i-s-i-s-s24-список-форм",
+          "inverse": null
+        },
+        {
+          "projectionName": "СписокУсловийE",
+          "caption": "Список условий",
+          "name": "списокУсловий",
+          "relatedTo": "i-i-s-i-s-s24-список-условий",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ВидПоддержкиL",
+      "modelName": "i-i-s-i-s-s24-вид-поддержки",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
