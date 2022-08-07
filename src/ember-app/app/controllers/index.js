@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-i-s-s24-условие-l',
             caption: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-условие-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-условие-l.title'),
-            icon: 'chart bar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-i-s-s24-вид-поддержки-l',
             caption: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-вид-поддержки-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-вид-поддержки-l.title'),
-            icon: 'edit',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-i-s-s24-форма-l',
             caption: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-форма-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s24.i-i-s-i-s-s24-форма-l.title'),
-            icon: 'list',
+            icon: 'table',
             children: null
           }]
         }
